@@ -1,0 +1,156 @@
+
+.subtitle {
+	color: #ffffff;
+    text-shadow: -3px 3px 3px #000000;
+    font-family: 'Yanone Kaffeesatz', cursive;
+    padding-top: 250px;
+	text-align: left;
+    font-size: 60pt;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+
+
+
+h2 {
+	font-size: 30pt;
+	text-transform: uppercase;
+	color: #f4f4f4;
+    text-shadow: 0 0 9px #000000;
+    position: relative;
+    bottom: 66px;
+
+}
+h3{
+	padding-top: 50px;
+	font-size:40pt !important;
+
+}
+h3::after{
+	content:"";
+	background-color: black;
+	display: block;
+	width: 15%;
+	height: 1px;
+	margin: 20px auto;
+}
+
+#first,#second,#third {
+	width: 23%;
+	margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 40px;
+    transition: all 0.6s ease-in-out;
+    filter: grayscale(10%);
+    height: 400px;
+    
+
+}
+#first:hover,#second:hover ,#third:hover {
+	transform: translateY(-20px);
+
+
+}
+
+*{
+	text-align: justify;
+	text-align: center;
+
+}
+.portfolio {
+
+background-color: white;
+margin: 40px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+padding-bottom: 30px;
+margin-top: -20px;
+}
+
+}
+.body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.front {
+font-family: 'Yanone Kaffeesatz', sans-serif; 
+background-image: url("https://d30o31ylp1hvg6.cloudfront.net/uploads/blog/check-out-halogen-softwares-new-graduate-careers-program/_thumb/848x450/fotolia-39163208-subscription-monthly-m.png") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.navbar-inverse {
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+    box-shadow: 0px 2px 50px #000000;
+
+}
+.front{
+	padding-bottom: 390px;
+	margin-bottom: 0px;
+	margin-left: -40px;
+
+    margin-top: -73px;
+}
+
+.navbar,.navbar-inverse {
+	opacity:1;
+	border-radius: 0px !important;
+	font-family: Hind;
+
+}
+.nav, .navbar-nav{
+	padding-left: 40px;
+
+}
+.navbar-nav {
+    float: right !important;
+}
+.navbar-inverse .navbar-nav>.active>a, {
+background-color: #222 !important;
+}
+.Button1 {
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    float: left;
+    margin-left: 100px;
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)
+ }
+.Button1:hover, .Button2:hover {
+	transform: translateX(10px);
+}
+.Button2 {
+    margin-top: 60px;
+    margin-left: -209px;
+    font-family: "Hind", Gadget, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 7%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    float: left;
+	background-image: linear-gradient(to left, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%) }
+

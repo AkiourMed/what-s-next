@@ -1,0 +1,314 @@
+
+.myVideo {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    filter : blur(50%);
+    min-height: 100%;
+}
+.fullscreen-bg__video {
+    margin-top: -75px;
+
+}
+*{
+    text-align: center;
+}
+#first {
+    background-image: url(auilogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.subtitle {
+    color: #ffffff;
+    text-shadow: 0px 4px 0.5px #0000009e;
+    font-family: 'Yanone Kaffeesatz', cursive;
+    text-align: center;
+    font-size: 60pt;
+    text-transform: capitalize;
+}
+#box {
+
+}
+img#first{
+    width: 23%;
+}
+
+h2 {
+	font-size: 30pt;
+	text-transform: uppercase;
+	color: #f4f4f4;
+    text-shadow: 0 0 9px #000000;
+    position: relative;
+    bottom: 66px;
+
+}
+h3{
+	padding-top: 50px;
+	font-size: 40pt !important;
+
+}
+h3::after{
+	content:"";
+	background-color: black;
+	display: block;
+	width: 15%;
+	height: 1px;
+	margin: 20px auto;
+}
+#first1{
+
+    width: 13%;
+    transition: all 0.6s ease-in-out;
+    filter: grayscale(10%);
+    height: 32%;
+    margin-left: -79%;
+    margin-top: -60px;
+    border-radius: 50%;
+    adow: 0px 25px 0px #003501;
+    background-color: white;
+}
+  
+#first,#second,#third {
+	width: 23%;
+    margin-left: 38.5%;
+    margin-right: 4%;
+    margin-top: 40px;
+    transition: all 0.6s ease-in-out;
+    filter: grayscale(10%);
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 25px 0px #003501;
+    background-color: white;
+}
+#first:hover,#second:hover ,#third:hover {
+	transform: translateY(-20px);
+
+
+}
+
+*{
+	text-align: justify;
+	text-align: center;
+
+}
+.portfolio {
+
+background-color: white;
+margin: -30px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+padding-bottom: 30px;
+    position: relative;
+    top: -18px;
+}
+
+#box2 {
+    background-color: #003501;
+    background-image: url(./img/box2.png);
+    background-size: cover;    
+    height: 240px;
+    position: relative;
+    z-index: 0;
+    bottom: 50px;
+}
+#box3 {
+    background-color: #2d3436;
+    background-size: cover;    
+    height: 40px;
+    position: relative;
+    z-index: 0;
+    bottom: 50PX;
+}
+div#box4 {
+    float:left;
+}
+div#box5 {
+    float:right;
+}
+
+#box4,#box5 {
+    background-color: #134E5E ;
+    background-size: cover;    
+    height: 240px;
+    position: relative;
+    z-index: 0;
+    bottom: 80px;
+    width:49%;
+}
+.testimonials {
+    margin:50px;
+}
+
+.body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.front {
+font-family: 'Yanone Kaffeesatz', sans-serif; 
+background-image: url("./img/b") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+position: absolute;
+z-index: 1;
+
+}
+#P1{
+    color:white;
+    padding: 60px;
+    justify-content: center;
+    text-align: justify;
+    text-align-last: center;
+    position: relative;
+    top:10px;
+    font-size: 21px;
+    font-family: Yanone Kaffeesatz;
+
+}
+#P2{
+    color:white;
+    justify-content: center;
+    text-align: justify;
+    text-align-last: center;
+    position: relative;
+    top:5px;
+    font-size: 21px;
+    font-family: Yanone Kaffeesatz;
+}
+#P3{
+    margin-left: -47%;
+    color: white;
+    margin-top: 1px;
+    position: relative;
+    bottom: -7pt;
+}
+#P4{
+padding: 21PX;
+font-size: 15pt;
+TEXT-ALIGN: JUSTIFY;
+TEXT-ALIGN-LAST: LEFT;
+color: white;
+margin-top: -1%;
+}
+.front{
+    position: absolute;
+	margin-bottom: 0px;
+	margin-left: 19%;
+    margin-right: 0;
+    margin-top: -450px;
+    z-index: 1;
+}
+#titlebox {
+    color: white;
+    margin-bottom: -10px;
+    padding-top: 10px;
+    margin-right: 1140px;
+    }
+
+.navbar,.navbar-inverse {
+	opacity:1;
+	border-radius: 0px !important;
+	font-family: Hind;
+    position: absolute;
+    z-index: 1;
+    margin-left: 0px !important;
+}
+.navbar-inverse {
+    background-image: linear-gradient(to left, #003502 0%, #003501 40%, #236125 100%) ;
+    box-shadow: 0px 2px 50px #000000;
+}
+
+
+
+.nav, .navbar-nav{
+	padding-left: 40px;
+    position: absolute;
+    z-index: 1
+}
+.navbar-nav {
+    float: right !important;
+    position: absolute;
+    z-index: 1
+}
+.navbar-inverse .navbar-nav>.active>a, {
+background-color: #222 !important;
+    position: absolute;
+    z-index: 1;
+}
+.Button1 {
+    margin: 10px;
+    font-family: "Hind", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    float: center;
+    margin-left: -10px;
+    width: 102%;
+    background-image: linear-gradient(to left, #003502 0%, #003501 40%, #236125 100%) ;
+ }
+ .Button2 {
+    margin: 10px;
+    font-family: "Hind", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    float: center;
+    margin-left: -10px;
+    width: 30%;
+    background-image: linear-gradient(to left, #2d3436 0%, #2d3436 40%, #2d3436 100%) ;
+ }
+.Button1:hover, .Button2:hover {
+	transform: translateX(10px);
+}
+ .Button4 {
+    position: relative;
+    top: -65px;
+    margin: 10px;
+    font-family: "Hind", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    float: center;
+    margin-left: -10px;
+    width: 30%;
+    background-image: linear-gradient(to left, #2d3436 0%, #2d3436 40%, #2d3436 100%) ;
